@@ -1,0 +1,76 @@
+
+body {
+    background-color: #0d1117;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100vh;
+    margin: 0;
+}
+
+#orologio {
+    font-size: 5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #00ffcc;
+    text-shadow: 0 0 15px rgba(0, 255, 204, 0.4);
+    margin-bottom: 10px;
+}
+#data {
+    font-size: 1.2rem;
+    color: #8b949e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 16px;
+    padding: 20px 30px;
+    margin: 10px 0;
+    width: 25% 10%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    
+
+}
+#card-meteo {
+    text-align: center;
+    background-color: #161b22;
+    color: #8b949e;
+    border: 1px solid #30363d;
+}
+
+#card-timer button {
+    background-color: #161b22;
+    color: #8b949e;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid #30363d;
+    
+}
+
+#card-timer {
+    background-color:  #161b22;
+    text-align: center;
+    border: 1px solid #30363d;
+}
+
+#inputMinuti {
+    background-color:  #161b22;
+    border-radius: 1px;
+    border: 1px solid #30363d;
+    color: #8b949e;
+}
+
+#timer {
+    color: #00ffcc;
+    text-shadow: 0 0 15px rgba(0, 255, 204, 0.4);
+}

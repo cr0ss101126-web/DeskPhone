@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DeskPhone</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        
+        <div class="colonna-principale">
+            <div class="card">
+                <div id="orologio"></div>
+            </div>
+            
+            <div class="card">
+                <div id="data"></div>
+            </div>
+        </div>
+
+        <div class="colonna-destra">
+            <div class="card" id="card-meteo">
+                <div id="meteo">Meteo</div>
+            </div>
+            <div class="card" id="card-timer">
+                <div id="timer">00:00</div>
+                <div class="timer-buttons">
+                    <button onclick="avviaTimer(2)">2m</button>
+                    <button onclick="avviaTimer(5)">5m</button>
+                    <button onclick="avviaTimer(8)">8m</button>
+                    <button onclick="avviaTimer(10)">10m</button>
+                </div>
+                <div class="custom-timer">
+                    <input type="number" id="inputMinuti" min="1" max="120">
+                    <button onclick="avviaTimerPersonalizzato()">Avvia</button>
+                    <button onclick="fermatimer()">Ferma</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
