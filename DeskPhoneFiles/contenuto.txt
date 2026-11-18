@@ -1,0 +1,5 @@
+in questa cartella trovi tutti i file necessari.
+lo script python deve essere eseguito in background (sempre tramite Termux).
+index.html è il file che contiene il codice per la grafica di base del sito web sul quale gireranno l'orologio e tutto il resto delle funzioni personalizzabili.
+style.css serve per la grafica ed i colori del sito, che puoi personalizzare come vuoi.
+script.js invece contiene il codice per far funzionare le funzioni del sito.
