@@ -127,3 +127,5 @@ aggiornaMeteo();
 aggiornaOrologio();
 aggiornaData();
 setInterval(aggiornaOrologio, 1000);
+setInterval(aggiornaData, 60000);
+setInterval(aggiornaMeteo, 600000);
